@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50/50 dark:bg-slate-950 flex flex-col font-sans transition-colors duration-300 selection:bg-indigo-500/30">
       <Head>
-        <title>QRForge - The Ultimate QR Code Engine</title>
+        <title>QrZap - The Ultimate QR Code Engine</title>
         <meta name="description" content="Generate, track, and manage dynamic QR codes for your business with real-time analytics." />
       </Head>
 
@@ -60,7 +60,7 @@ export default function Home() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-500 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-indigo-600 dark:bg-indigo-500"></span>
               </span>
-              QRForge Enterprise Engine is Live
+              QrZap Enterprise Engine is Live
             </div>
             
             <h1 className="text-6xl md:text-8xl font-black tracking-tight text-slate-900 dark:text-white mb-6 leading-[1.05]">
@@ -105,7 +105,7 @@ export default function Home() {
                     <div className="w-3.5 h-3.5 rounded-full bg-green-400 dark:bg-green-500/80 shadow-inner"></div>
                   </div>
                   <div className="mx-auto bg-white dark:bg-slate-950 text-xs font-mono text-slate-500 dark:text-slate-400 px-6 sm:px-32 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 flex items-center gap-2 shadow-sm transition-all group-hover:bg-indigo-50 dark:group-hover:bg-indigo-900/20 group-hover:text-indigo-600 dark:group-hover:text-indigo-300">
-                    <Shield size={12} /> app.qrforge.com/analytics
+                    <Shield size={12} /> app.qrzap.com/analytics
                   </div>
                 </div>
                 {/* Dashboard Content */}
@@ -133,7 +133,7 @@ export default function Home() {
               <span className="text-indigo-600 dark:text-indigo-400 font-bold tracking-wider uppercase text-sm mb-4 block">Power Tools</span>
               <h2 className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 tracking-tight">Everything you need,<br />built right in.</h2>
               <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto font-medium">
-                Stop worrying about dead links and unmeasurable offline campaigns. QRForge gives you total control.
+                Stop worrying about dead links and unmeasurable offline campaigns. QrZap gives you total control.
               </p>
             </div>
 
@@ -187,7 +187,7 @@ export default function Home() {
           
           <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
             <h2 className="text-5xl md:text-6xl font-black mb-8 tracking-tight text-white drop-shadow-sm">Scale your offline impact.</h2>
-            <p className="text-xl md:text-2xl text-indigo-100 mb-12 font-medium max-w-2xl mx-auto">Join thousands of leading brands already routing millions of scans through QRForge.</p>
+            <p className="text-xl md:text-2xl text-indigo-100 mb-12 font-medium max-w-2xl mx-auto">Join thousands of leading brands already routing millions of scans through QrZap.</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
               <Link
                 href="/auth/signup"
@@ -210,7 +210,7 @@ export default function Home() {
               <div className="bg-indigo-600 p-2.5 rounded-xl text-white group-hover:scale-105 transition-transform shadow-md">
                 <QrCode className="w-6 h-6" />
               </div>
-              <span className="font-black text-2xl tracking-tight text-slate-900 dark:text-white">QRForge</span>
+              <span className="font-black text-2xl tracking-tight text-slate-900 dark:text-white">QrZap</span>
             </div>
             <div className="flex gap-8 text-sm font-bold text-slate-500 dark:text-slate-400">
               <Link href="/pricing" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Pricing</Link>
@@ -220,7 +220,7 @@ export default function Home() {
           </div>
           <div className="mt-8 pt-8 border-t border-slate-100 dark:border-slate-800/50 flex flex-col md:flex-row justify-between items-center gap-4">
              <p className="text-slate-500 dark:text-slate-500 text-sm font-medium">
-               © {new Date().getFullYear()} QRForge Inc.
+               © {new Date().getFullYear()} QrZap Inc.
              </p>
              <p className="text-slate-500 dark:text-slate-500 text-sm font-medium">
                Engineered for global scale.

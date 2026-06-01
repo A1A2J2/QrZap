@@ -40,7 +40,7 @@ export default function SignUp() {
             <div className="bg-indigo-600 p-2.5 rounded-2xl text-white shadow-lg shadow-indigo-500/30">
               <QrCode className="w-8 h-8" />
             </div>
-            <span className="font-black text-3xl tracking-tight text-gray-900 dark:text-white">QRForge</span>
+            <span className="font-black text-3xl tracking-tight text-gray-900 dark:text-white">QrZap</span>
           </Link>
           <h2 className="text-3xl font-black text-gray-900 dark:text-white">Create an account</h2>
           <p className="text-gray-600 dark:text-gray-400 mt-2">Start managing your QR codes in seconds.</p>

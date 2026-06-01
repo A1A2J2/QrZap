@@ -41,7 +41,7 @@ export default function Navbar() {
             <div className="bg-indigo-600 text-white p-1.5 rounded-lg group-hover:scale-105 transition-transform">
               <QrCode size={24} />
             </div>
-            <span className="font-bold text-xl tracking-tight text-gray-900 dark:text-white">QRForge</span>
+            <span className="font-bold text-xl tracking-tight text-gray-900 dark:text-white">QrZap</span>
           </Link>
 
           <div className="flex items-center gap-4">

@@ -7,7 +7,7 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-gray-50/50 dark:bg-slate-950 flex flex-col font-sans transition-colors duration-300">
       <Head>
-        <title>Pricing - QRForge</title>
+        <title>Pricing - QrZap</title>
       </Head>
 
       <Navbar />
@@ -103,10 +103,10 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center gap-6 text-center">
           <div className="flex items-center gap-2">
              <QrCode className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
-             <span className="font-bold text-xl text-gray-900 dark:text-white">QRForge</span>
+             <span className="font-bold text-xl text-gray-900 dark:text-white">QrZap</span>
           </div>
           <p className="text-gray-500 dark:text-gray-400 text-sm">
-            © {new Date().getFullYear()} QRForge. All rights reserved.
+            © {new Date().getFullYear()} QrZap. All rights reserved.
           </p>
         </div>
       </footer>
